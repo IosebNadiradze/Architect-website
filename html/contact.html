@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Myarchitect</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="shortcut icon" href="../images/website-icon.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="../style.css">
+    </head>
+<body>
+    <header class="header"></header>
+    <main class="contact-us">
+        <div class="contact-headling">
+            <h1>გსურთ პროექტის შეკვეთა ? მაშინ დაგვიკავშირდით</h1>
+            <p>ჩვენთან დასაკავშირებლად მოგვძებნეთ რუკაზე ან დაგვიკავშირდით საკონტაქტო ინფორმაციის მეშვეობით</p>
+        </div>
+        <section class="google-map">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.760995014027!2d44.771812975225444!3d41.72567597494506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472dbe50caf49%3A0xe4e5099c2ee1f7c5!2zMTRhIOGDn-GDmOGDo-GDmuGDmCDhg6jhg5Dhg6Dhg6Lhg5Dhg5Xhg5Dhg6Eg4YOl4YOj4YOp4YOQLCDhg5fhg5Hhg5jhg5rhg5jhg6Hhg5g!5e0!3m2!1ska!2sge!4v1719393716912!5m2!1ska!2sge" width="1150" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </section>
+        <section class="contact-form">
+            <div class="office">				
+                <h5>ოფისი:</h5>
+                <div class="detail">
+                    <a href="tel:+995592990792"><strong>T:</strong> +995 592 99 07 92</a>
+                    <a href="mailto:valuablegk@gmail.com"><strong>E:</strong> valuablegk@gmail.com</a>
+                    <a href="https://www.google.com/maps/place/14a+%E1%83%9F%E1%83%98%E1%83%A3%E1%83%9A%E1%83%98+%E1%83%A8%E1%83%90%E1%83%A0%E1%83%A2%E1%83%90%E1%83%95%E1%83%90%E1%83%A1+%E1%83%A5%E1%83%A3%E1%83%A9%E1%83%90,+%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98/@41.725676,44.771813,17z/data=!3m1!4b1!4m6!3m5!1s0x404472dbe50caf49:0xe4e5099c2ee1f7c5!8m2!3d41.725672!4d44.7743879!16s%2Fg%2F11_smgmn9?entry=ttu" target="_blank" class="adress">თბილისი,ჟიული შარტავას ქუჩა 14ა</a>
+                </div>
+            </div>
+            <div class="inquiries">
+                <h5>მოგვწერეთ:</h5>
+                <form class="form" action="https://formsubmit.co/valuablegk@gmail.com" method="POST">
+                    <input name="name" type="text" id="name" placeholder="სახელი">
+                    <input name="email" type="text" id="mail" placeholder="თქვენი მეილი">
+                    <input name="phone" type="tel" id="number" placeholder="მობილურის ნომერი">
+                    <textarea name="message" id="message" placeholder="შეტყობინება"></textarea>
+                    <input type="submit" onclick="sendMail()" value="გაგზავნა">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+    <script src="../js/headerFooter.js"></script>
+    <script src="../js/sidebar.js"></script>
+</body>
+</html>
