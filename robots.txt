@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://myarchitect.ge/sitemap.xml
